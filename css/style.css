@@ -1,0 +1,230 @@
+/* Geral */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 70px;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333333;
+  background-color: #ffffff;
+  line-height: 1.6;
+}
+
+/* Hero */
+.hero-section {
+  background: linear-gradient(135deg, #0d1b2a 0%, #1b263b 100%);
+  border-bottom: 3px solid #0d6efd;
+}
+
+.hero-card {
+  background-color: #ffffff;
+  color: #212529;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  transition: transform 0.3s ease;
+}
+
+.hero-card:hover {
+  transform: translateY(-5px);
+}
+
+/* Cards de Serviços */
+.custom-card {
+  background-color: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  padding: 1.5rem;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+  transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
+}
+
+.custom-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 20px rgba(13, 110, 253, 0.12);
+  border-color: #0d6efd;
+}
+
+.custom-card-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1.2rem;
+}
+
+.custom-card-icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+  background-color: rgba(13, 110, 253, 0.1);
+  color: #0d6efd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  transition: background-color 0.25s ease, color 0.25s ease;
+}
+
+.custom-card:hover .custom-card-icon {
+  background-color: #0d6efd;
+  color: #ffffff;
+}
+
+.custom-card-badge {
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  background-color: #f1f5f9;
+  color: #475569;
+  padding: 0.3rem 0.7rem;
+  border-radius: 20px;
+}
+
+.custom-card-body {
+  flex-grow: 1;
+}
+
+.custom-card-title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #1e293b;
+  margin-bottom: 0.75rem;
+}
+
+.custom-card-text {
+  font-size: 0.95rem;
+  color: #64748b;
+  margin-bottom: 1rem;
+}
+
+.custom-card-list {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 1.25rem;
+}
+
+.custom-card-list li {
+  font-size: 0.88rem;
+  color: #475569;
+  margin-bottom: 0.4rem;
+  display: flex;
+  align-items: center;
+  gap: 0.45rem;
+}
+
+.custom-card-list li i {
+  color: #0d6efd;
+  font-weight: bold;
+}
+
+.custom-card-footer {
+  margin-top: auto;
+  padding-top: 1rem;
+  border-top: 1px solid #f1f5f9;
+}
+
+/* Seção de Contato */
+.contact-box {
+  background-color: #f8fafc;
+  border-color: #e2e8f0;
+  transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+.contact-box:hover {
+  transform: translateX(4px);
+  background-color: #f1f5f9;
+}
+
+.contact-icon {
+  width: 44px;
+  height: 44px;
+  flex-shrink: 0;
+}
+
+/* Botão Flutuante */
+.whatsapp-flutuante {
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+  width: 55px;
+  height: 55px;
+  background-color: #25d366;
+  color: #ffffff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.8rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+  z-index: 1050;
+  text-decoration: none;
+  transition: transform 0.25s ease, background-color 0.25s ease;
+}
+
+.whatsapp-flutuante:hover {
+  transform: scale(1.1);
+  background-color: #1eb954;
+  color: #ffffff;
+}
+
+/* Responsividade */
+@media screen and (max-width: 991px) {
+  .hero-section {
+    text-align: center;
+  }
+
+  .hero-stats {
+    justify-content: center;
+  }
+
+  .hero-card {
+    margin-top: 1rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  html {
+    font-size: 15px;
+  }
+
+  .hero-section h1 {
+    font-size: 2rem;
+  }
+
+  .custom-card {
+    padding: 1.25rem;
+  }
+
+  .whatsapp-flutuante {
+    bottom: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    font-size: 1.6rem;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .hero-stats {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem !important;
+  }
+
+  .custom-card-title {
+    font-size: 1.15rem;
+  }
+
+  .contact-box {
+    padding: 0.85rem !important;
+  }
+}

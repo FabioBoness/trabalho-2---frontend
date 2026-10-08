@@ -1,0 +1,816 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ByteTech Soluções em Tecnologia</title>
+
+  <!-- Bootstrap 5 e Ícones -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+  <!-- Estilos personalizados -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Menu de Navegação -->
+  <header class="sticky-top">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-sm">
+      <div class="container">
+        <a class="navbar-brand d-flex align-items-center gap-2 fw-bold" href="#inicio">
+          <i class="bi bi-cpu text-primary fs-3"></i>
+          <span>Byte<span class="text-primary">Tech</span></span>
+        </a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuPrincipal" aria-controls="menuPrincipal" aria-expanded="false" aria-label="Abrir menu">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="menuPrincipal">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-lg-center">
+            <li class="nav-item">
+              <a class="nav-link active" href="#inicio">Início</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#sobre">Sobre Nós</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#servicos">Serviços</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#depoimentos">Depoimentos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#faq">Dúvidas</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contato">Contato</a>
+            </li>
+            <li class="nav-item ms-lg-2 mt-2 mt-lg-0">
+              <a href="#contato" class="btn btn-primary btn-sm rounded-pill px-3">
+                <i class="bi bi-envelope-fill me-1"></i> Orçamento
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- Seção Inicial / Hero -->
+    <section id="inicio" class="hero-section py-5 text-white">
+      <div class="container py-lg-4">
+        <div class="row align-items-center gy-4">
+          <div class="col-lg-7">
+            <span class="badge bg-primary px-3 py-2 rounded-pill mb-3">
+              <i class="bi bi-award-fill me-1"></i> Soluções em Tecnologia & Inovação
+            </span>
+            <h1 class="display-5 fw-bold mb-3">
+              Transforme o seu negócio com soluções digitais inteligentes
+            </h1>
+            <p class="lead text-light opacity-75 mb-4">
+              Desenvolvimento de sites modernos, suporte técnico especializado, infraestrutura de redes e segurança digital para a sua empresa crescer.
+            </p>
+            <div class="d-flex flex-wrap gap-3">
+              <a href="#servicos" class="btn btn-primary btn-lg px-4 rounded-pill">
+                Conhecer Serviços <i class="bi bi-arrow-right ms-1"></i>
+              </a>
+              <a href="#contato" class="btn btn-outline-light btn-lg px-4 rounded-pill">
+                Fale Conosco
+              </a>
+            </div>
+
+            <!-- Destaques -->
+            <div class="hero-stats d-flex flex-wrap gap-4 mt-5 pt-3 border-top border-secondary">
+              <div>
+                <h4 class="fw-bold mb-0 text-primary">+120</h4>
+                <small class="text-light opacity-75">Projetos Entregues</small>
+              </div>
+              <div>
+                <h4 class="fw-bold mb-0 text-primary">99.8%</h4>
+                <small class="text-light opacity-75">Satisfação de Clientes</small>
+              </div>
+              <div>
+                <h4 class="fw-bold mb-0 text-primary">24/7</h4>
+                <small class="text-light opacity-75">Suporte Disponível</small>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-5 text-center">
+            <div class="hero-card p-4 rounded-4 shadow">
+              <i class="bi bi-laptop display-1 text-primary mb-3"></i>
+              <h3 class="h4 fw-bold">Tecnologia ao Seu Alcance</h3>
+              <p class="text-secondary small mb-3">
+                Do planejamento à entrega final, utilizamos as melhores práticas do mercado para garantir estabilidade, segurança e agilidade.
+              </p>
+              <div class="d-flex justify-content-center gap-2">
+                <span class="badge bg-secondary">HTML5 / CSS3</span>
+                <span class="badge bg-secondary">Bootstrap 5</span>
+                <span class="badge bg-secondary">JavaScript</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sobre Nós -->
+    <section id="sobre" class="py-5 bg-light">
+      <div class="container py-4">
+        <div class="row align-items-center gy-4">
+          <div class="col-lg-6">
+            <span class="text-primary fw-bold text-uppercase small">Sobre a ByteTech</span>
+            <h2 class="fw-bold mb-3">Compromisso com inovação e qualidade técnica</h2>
+            <p class="text-secondary">
+              A <strong>ByteTech</strong> é uma empresa focada em prestar serviços de tecnologia da informação para pequenas, médias e grandes empresas.
+            </p>
+            <p class="text-secondary">
+              Nossa missão é descomplicar a tecnologia, oferecendo suporte contínuo, desenvolvimento de alta performance e consultoria estratégica para potencializar resultados.
+            </p>
+            
+            <ul class="list-unstyled d-flex flex-column gap-2 text-secondary">
+              <li><i class="bi bi-check-circle-fill text-primary me-2"></i> Atendimento personalizado para cada cliente</li>
+              <li><i class="bi bi-check-circle-fill text-primary me-2"></i> Prazos de entrega rigorosamente cumpridos</li>
+              <li><i class="bi bi-check-circle-fill text-primary me-2"></i> Estrutura compatível com celulares, tablets e computadores</li>
+            </ul>
+          </div>
+
+          <div class="col-lg-6">
+            <div class="row g-3">
+              <div class="col-sm-6">
+                <div class="p-4 bg-white rounded-3 shadow-sm text-center h-100">
+                  <i class="bi bi-shield-check text-primary fs-1 mb-2"></i>
+                  <h5 class="fw-bold">Segurança</h5>
+                  <p class="text-secondary small mb-0">Proteção preventiva de dados e conformidade com a LGPD.</p>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="p-4 bg-white rounded-3 shadow-sm text-center h-100">
+                  <i class="bi bi-lightning-charge text-primary fs-1 mb-2"></i>
+                  <h5 class="fw-bold">Agilidade</h5>
+                  <p class="text-secondary small mb-0">Resolução rápida de chamados e suporte imediato.</p>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="p-4 bg-white rounded-3 shadow-sm text-center h-100">
+                  <i class="bi bi-gear-wide-connected text-primary fs-1 mb-2"></i>
+                  <h5 class="fw-bold">Modernidade</h5>
+                  <p class="text-secondary small mb-0">Sistemas atualizados e ferramentas de ponta.</p>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="p-4 bg-white rounded-3 shadow-sm text-center h-100">
+                  <i class="bi bi-headset text-primary fs-1 mb-2"></i>
+                  <h5 class="fw-bold">Suporte 24h</h5>
+                  <p class="text-secondary small mb-0">Equipe sempre pronta para tirar dúvidas e atender.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Serviços -->
+    <section id="servicos" class="py-5">
+      <div class="container py-4">
+        <div class="text-center mb-5">
+          <span class="text-primary fw-bold text-uppercase small">O Que Oferecemos</span>
+          <h2 class="fw-bold">Nossos Serviços Especializados</h2>
+          <p class="text-secondary mx-auto" style="max-width: 600px;">
+            Conheça as soluções que desenvolvemos para atender às necessidades tecnológicas da sua empresa.
+          </p>
+        </div>
+
+        <div class="row g-4">
+
+          <!-- Card 1 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <article class="custom-card">
+              <div class="custom-card-header">
+                <div class="custom-card-icon">
+                  <i class="bi bi-globe"></i>
+                </div>
+                <span class="custom-card-badge">Web Design</span>
+              </div>
+              <div class="custom-card-body">
+                <h3 class="custom-card-title">Criação de Sites e Sistemas</h3>
+                <p class="custom-card-text">
+                  Desenvolvimento de websites modernos, landing pages de alta conversão e sistemas administrativos semânticos e responsivos.
+                </p>
+                <ul class="custom-card-list">
+                  <li><i class="bi bi-check2"></i> Layouts adaptados para celular</li>
+                  <li><i class="bi bi-check2"></i> Otimização para Google (SEO)</li>
+                  <li><i class="bi bi-check2"></i> Painel administrativo fácil</li>
+                </ul>
+              </div>
+              <div class="custom-card-footer">
+                <button type="button" class="btn btn-sm btn-outline-primary w-100" data-bs-toggle="modal" data-bs-target="#modalServico1">
+                  Ver Detalhes
+                </button>
+              </div>
+            </article>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <article class="custom-card">
+              <div class="custom-card-header">
+                <div class="custom-card-icon">
+                  <i class="bi bi-tools"></i>
+                </div>
+                <span class="custom-card-badge">Suporte</span>
+              </div>
+              <div class="custom-card-body">
+                <h3 class="custom-card-title">Suporte e Manutenção em TI</h3>
+                <p class="custom-card-text">
+                  Assistência técnica preventiva e corretiva para computadores, servidores, impressoras e softwares empresariais.
+                </p>
+                <ul class="custom-card-list">
+                  <li><i class="bi bi-check2"></i> Formatação e upgrades</li>
+                  <li><i class="bi bi-check2"></i> Atendimento remoto e presencial</li>
+                  <li><i class="bi bi-check2"></i> Manutenção de hardware</li>
+                </ul>
+              </div>
+              <div class="custom-card-footer">
+                <button type="button" class="btn btn-sm btn-outline-primary w-100" data-bs-toggle="modal" data-bs-target="#modalServico2">
+                  Ver Detalhes
+                </button>
+              </div>
+            </article>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <article class="custom-card">
+              <div class="custom-card-header">
+                <div class="custom-card-icon">
+                  <i class="bi bi-router"></i>
+                </div>
+                <span class="custom-card-badge">Infraestrutura</span>
+              </div>
+              <div class="custom-card-body">
+                <h3 class="custom-card-title">Redes e Conectividade</h3>
+                <p class="custom-card-text">
+                  Planejamento, instalação e configuração de redes cabeadas e Wi-Fi corporativas com alta estabilidade e velocidade.
+                </p>
+                <ul class="custom-card-list">
+                  <li><i class="bi bi-check2"></i> Cabeamento estruturado</li>
+                  <li><i class="bi bi-check2"></i> Roteadores e switches</li>
+                  <li><i class="bi bi-check2"></i> Configuração de VPN segura</li>
+                </ul>
+              </div>
+              <div class="custom-card-footer">
+                <button type="button" class="btn btn-sm btn-outline-primary w-100" data-bs-toggle="modal" data-bs-target="#modalServico3">
+                  Ver Detalhes
+                </button>
+              </div>
+            </article>
+          </div>
+
+          <!-- Card 4 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <article class="custom-card">
+              <div class="custom-card-header">
+                <div class="custom-card-icon">
+                  <i class="bi bi-cloud-arrow-up"></i>
+                </div>
+                <span class="custom-card-badge">Cloud</span>
+              </div>
+              <div class="custom-card-body">
+                <h3 class="custom-card-title">Backup em Nuvem & Armazenamento</h3>
+                <p class="custom-card-text">
+                  Rotinas automáticas de cópia de segurança para garantir que arquivos, bancos de dados e documentos nunca sejam perdidos.
+                </p>
+                <ul class="custom-card-list">
+                  <li><i class="bi bi-check2"></i> Backup automático diário</li>
+                  <li><i class="bi bi-check2"></i> Recuperação rápida de desastres</li>
+                  <li><i class="bi bi-check2"></i> Armazenamento criptografado</li>
+                </ul>
+              </div>
+              <div class="custom-card-footer">
+                <button type="button" class="btn btn-sm btn-outline-primary w-100" data-bs-toggle="modal" data-bs-target="#modalServico4">
+                  Ver Detalhes
+                </button>
+              </div>
+            </article>
+          </div>
+
+          <!-- Card 5 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <article class="custom-card">
+              <div class="custom-card-header">
+                <div class="custom-card-icon">
+                  <i class="bi bi-shield-lock"></i>
+                </div>
+                <span class="custom-card-badge">Segurança</span>
+              </div>
+              <div class="custom-card-body">
+                <h3 class="custom-card-title">Segurança da Informação</h3>
+                <p class="custom-card-text">
+                  Proteção completa contra vírus, ataques de ransomware e invasões, mantendo o ambiente digital da sua empresa seguro.
+                </p>
+                <ul class="custom-card-list">
+                  <li><i class="bi bi-check2"></i> Instalação de antivírus e firewall</li>
+                  <li><i class="bi bi-check2"></i> Políticas de senhas e acessos</li>
+                  <li><i class="bi bi-check2"></i> Adequação às normas da LGPD</li>
+                </ul>
+              </div>
+              <div class="custom-card-footer">
+                <button type="button" class="btn btn-sm btn-outline-primary w-100" data-bs-toggle="modal" data-bs-target="#modalServico5">
+                  Ver Detalhes
+                </button>
+              </div>
+            </article>
+          </div>
+
+          <!-- Card 6 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <article class="custom-card">
+              <div class="custom-card-header">
+                <div class="custom-card-icon">
+                  <i class="bi bi-graph-up"></i>
+                </div>
+                <span class="custom-card-badge">Estratégia</span>
+              </div>
+              <div class="custom-card-body">
+                <h3 class="custom-card-title">Consultoria e Planejamento</h3>
+                <p class="custom-card-text">
+                  Análise técnica das necessidades da sua empresa para indicar os melhores equipamentos, softwares e investimentos em TI.
+                </p>
+                <ul class="custom-card-list">
+                  <li><i class="bi bi-check2"></i> Diagnóstico completo do parque de TI</li>
+                  <li><i class="bi bi-check2"></i> Redução de custos com tecnologia</li>
+                  <li><i class="bi bi-check2"></i> Treinamento de colaboradores</li>
+                </ul>
+              </div>
+              <div class="custom-card-footer">
+                <button type="button" class="btn btn-sm btn-outline-primary w-100" data-bs-toggle="modal" data-bs-target="#modalServico6">
+                  Ver Detalhes
+                </button>
+              </div>
+            </article>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Depoimentos -->
+    <section id="depoimentos" class="py-5 bg-light">
+      <div class="container py-4">
+        <div class="text-center mb-5">
+          <span class="text-primary fw-bold text-uppercase small">Avaliações</span>
+          <h2 class="fw-bold">Depoimentos dos Nossos Clientes</h2>
+          <p class="text-secondary mx-auto" style="max-width: 600px;">
+            Veja a opinião de quem já utiliza e confia nos serviços da ByteTech.
+          </p>
+        </div>
+
+        <div id="carouselDepoimentos" class="carousel slide mx-auto" data-bs-ride="carousel" style="max-width: 750px;">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselDepoimentos" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselDepoimentos" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselDepoimentos" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+
+          <div class="carousel-inner pb-5">
+            <div class="carousel-item active">
+              <div class="card p-4 text-center border-0 shadow-sm">
+                <div class="text-warning mb-3">
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                </div>
+                <p class="fs-5 fst-italic text-secondary mb-3">
+                  "A ByteTech refez todo o site da nossa clínica e agora nossos pacientes conseguem agendar consultas pelo celular facilmente. Excelente trabalho!"
+                </p>
+                <h5 class="fw-bold mb-0">Mariana Souza</h5>
+                <small class="text-muted">Gerente Administrativa</small>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <div class="card p-4 text-center border-0 shadow-sm">
+                <div class="text-warning mb-3">
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                </div>
+                <p class="fs-5 fst-italic text-secondary mb-3">
+                  "O suporte técnico da equipe é nota 10. Sempre que temos um problema na rede ou nas máquinas do escritório, resolvem rapidamente."
+                </p>
+                <h5 class="fw-bold mb-0">Carlos Henrique Ramos</h5>
+                <small class="text-muted">Diretor de Escritório de Contabilidade</small>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <div class="card p-4 text-center border-0 shadow-sm">
+                <div class="text-warning mb-3">
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                </div>
+                <p class="fs-5 fst-italic text-secondary mb-3">
+                  "Implementamos a rotina de backup em nuvem com eles e ficamos muito mais tranquilos com a segurança dos arquivos da nossa empresa."
+                </p>
+                <h5 class="fw-bold mb-0">Fernanda Lima</h5>
+                <small class="text-muted">Proprietária de Comércio Local</small>
+              </div>
+            </div>
+          </div>
+
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselDepoimentos" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon bg-dark rounded-circle" aria-hidden="true"></span>
+            <span class="visually-hidden">Anterior</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselDepoimentos" data-bs-slide="next">
+            <span class="carousel-control-next-icon bg-dark rounded-circle" aria-hidden="true"></span>
+            <span class="visually-hidden">Próximo</span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Perguntas Frequentes -->
+    <section id="faq" class="py-5">
+      <div class="container py-4">
+        <div class="text-center mb-5">
+          <span class="text-primary fw-bold text-uppercase small">Perguntas Frequentes</span>
+          <h2 class="fw-bold">Tire Suas Dúvidas</h2>
+          <p class="text-secondary mx-auto" style="max-width: 600px;">
+            Confira as respostas para as perguntas mais comuns sobre nossos serviços.
+          </p>
+        </div>
+
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <div class="accordion" id="accordionFaq">
+              <div class="accordion-item mb-2 border rounded">
+                <h3 class="accordion-header" id="faqHeading1">
+                  <button class="accordion-button fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse1" aria-expanded="true" aria-controls="faqCollapse1">
+                    Qual é o prazo médio para a criação de um site?
+                  </button>
+                </h3>
+                <div id="faqCollapse1" class="accordion-collapse collapse show" aria-labelledby="faqHeading1" data-bs-parent="#accordionFaq">
+                  <div class="accordion-body text-secondary">
+                    O prazo varia de acordo com a complexidade do projeto. Sites institucionais e páginas de apresentação costumam levar de 7 a 15 dias úteis, enquanto sistemas mais elaborados podem levar de 20 a 45 dias.
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item mb-2 border rounded">
+                <h3 class="accordion-header" id="faqHeading2">
+                  <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse2" aria-expanded="false" aria-controls="faqCollapse2">
+                    Como funciona o suporte técnico mensal para empresas?
+                  </button>
+                </h3>
+                <div id="faqCollapse2" class="accordion-collapse collapse" aria-labelledby="faqHeading2" data-bs-parent="#accordionFaq">
+                  <div class="accordion-body text-secondary">
+                    Oferecemos planos de suporte contínuo que incluem manutenção de computadores, suporte a e-mails e redes, além de atendimento via chamados remotos ou visitas técnicas no local.
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item mb-2 border rounded">
+                <h3 class="accordion-header" id="faqHeading3">
+                  <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse3" aria-expanded="false" aria-controls="faqCollapse3">
+                    Os sites criados funcionam bem no celular?
+                  </button>
+                </h3>
+                <div id="faqCollapse3" class="accordion-collapse collapse" aria-labelledby="faqHeading3" data-bs-parent="#accordionFaq">
+                  <div class="accordion-body text-secondary">
+                    Sim! Todos os nossos projetos são desenvolvidos com design responsivo (HTML, CSS e Bootstrap), adaptando-se automaticamente a telas de computadores, notebooks, tablets e smartphones.
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item mb-2 border rounded">
+                <h3 class="accordion-header" id="faqHeading4">
+                  <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse4" aria-expanded="false" aria-controls="faqCollapse4">
+                    Como faço para solicitar um orçamento sem compromisso?
+                  </button>
+                </h3>
+                <div id="faqCollapse4" class="accordion-collapse collapse" aria-labelledby="faqHeading4" data-bs-parent="#accordionFaq">
+                  <div class="accordion-body text-secondary">
+                    Você pode preencher o formulário na seção de contato abaixo ou nos enviar uma mensagem direta pelo WhatsApp. Responderemos em breve com uma proposta detalhada.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contato -->
+    <section id="contato" class="py-5 bg-light">
+      <div class="container py-4">
+        <div class="text-center mb-5">
+          <span class="text-primary fw-bold text-uppercase small">Fale Conosco</span>
+          <h2 class="fw-bold">Canais de Contato e Orçamento</h2>
+          <p class="text-secondary mx-auto" style="max-width: 600px;">
+            Entre em contato através das nossas redes ou envie uma mensagem pelo formulário.
+          </p>
+        </div>
+
+        <div class="row g-4">
+          <!-- Redes Sociais e Endereço -->
+          <div class="col-lg-5">
+            <div class="bg-white p-4 rounded-3 shadow-sm h-100">
+              <h3 class="h4 fw-bold mb-3">Nossos Canais</h3>
+              <p class="text-secondary small mb-4">
+                Siga nossas páginas oficiais ou entre em contato pelos nossos canais institucionais:
+              </p>
+
+              <div class="d-flex flex-column gap-3 mb-4">
+                <a href="https://www.whatsapp.com" target="_blank" rel="noopener noreferrer" class="contact-box d-flex align-items-center gap-3 p-3 rounded text-decoration-none border">
+                  <div class="contact-icon bg-success text-white rounded-circle d-flex align-items-center justify-content-center">
+                    <i class="bi bi-whatsapp fs-5"></i>
+                  </div>
+                  <div>
+                    <h6 class="mb-0 fw-bold text-dark">WhatsApp</h6>
+                    <small class="text-muted">(11) 99999-9999 &bull; Atendimento Online</small>
+                  </div>
+                </a>
+
+                <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer" class="contact-box d-flex align-items-center gap-3 p-3 rounded text-decoration-none border">
+                  <div class="contact-icon bg-danger text-white rounded-circle d-flex align-items-center justify-content-center">
+                    <i class="bi bi-instagram fs-5"></i>
+                  </div>
+                  <div>
+                    <h6 class="mb-0 fw-bold text-dark">Instagram</h6>
+                    <small class="text-muted">Acesse a página inicial do Instagram</small>
+                  </div>
+                </a>
+
+                <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer" class="contact-box d-flex align-items-center gap-3 p-3 rounded text-decoration-none border">
+                  <div class="contact-icon bg-primary text-white rounded-circle d-flex align-items-center justify-content-center">
+                    <i class="bi bi-facebook fs-5"></i>
+                  </div>
+                  <div>
+                    <h6 class="mb-0 fw-bold text-dark">Facebook</h6>
+                    <small class="text-muted">Acesse a página inicial do Facebook</small>
+                  </div>
+                </a>
+              </div>
+
+              <div class="pt-3 border-top">
+                <p class="text-secondary small mb-1">
+                  <i class="bi bi-geo-alt-fill text-primary me-2"></i> Rua da Tecnologia, 100 - Centro, São Paulo - SP
+                </p>
+                <p class="text-secondary small mb-0">
+                  <i class="bi bi-envelope-fill text-primary me-2"></i> contato@bytetech.com.br
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Formulário -->
+          <div class="col-lg-7">
+            <div class="bg-white p-4 rounded-3 shadow-sm">
+              <h3 class="h4 fw-bold mb-3">Envie uma Mensagem</h3>
+              
+              <form id="formContato" novalidate>
+                <div class="row g-3">
+                  <div class="col-md-6">
+                    <label for="campoNome" class="form-label">Nome Completo *</label>
+                    <input type="text" class="form-control" id="campoNome" placeholder="Seu nome" required minlength="3">
+                    <div class="invalid-feedback">Por favor, informe seu nome.</div>
+                  </div>
+
+                  <div class="col-md-6">
+                    <label for="campoEmail" class="form-label">E-mail *</label>
+                    <input type="email" class="form-control" id="campoEmail" placeholder="seu@email.com" required>
+                    <div class="invalid-feedback">Informe um e-mail válido.</div>
+                  </div>
+
+                  <div class="col-md-6">
+                    <label for="campoTelefone" class="form-label">Telefone / WhatsApp *</label>
+                    <input type="tel" class="form-control" id="campoTelefone" placeholder="(11) 99999-9999" required>
+                    <div class="invalid-feedback">Informe seu telefone para contato.</div>
+                  </div>
+
+                  <div class="col-md-6">
+                    <label for="campoServico" class="form-label">Serviço Desejado *</label>
+                    <select class="form-select" id="campoServico" required>
+                      <option value="" disabled selected>Selecione uma opção...</option>
+                      <option value="Criação de Sites">Criação de Sites e Sistemas</option>
+                      <option value="Suporte em TI">Suporte e Manutenção em TI</option>
+                      <option value="Redes e Conectividade">Redes e Conectividade</option>
+                      <option value="Backup em Nuvem">Backup em Nuvem & Armazenamento</option>
+                      <option value="Segurança da Informação">Segurança da Informação</option>
+                      <option value="Consultoria">Consultoria em TI</option>
+                    </select>
+                    <div class="invalid-feedback">Selecione o serviço de interesse.</div>
+                  </div>
+
+                  <div class="col-12">
+                    <label for="campoMensagem" class="form-label">Mensagem / Descrição do Pedido *</label>
+                    <textarea class="form-control" id="campoMensagem" rows="4" placeholder="Descreva sua necessidade ou dúvida..." required minlength="10"></textarea>
+                    <div class="invalid-feedback">Por favor, escreva uma breve mensagem (mínimo 10 caracteres).</div>
+                  </div>
+
+                  <div class="col-12">
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" id="checkTermos" required>
+                      <label class="form-check-label text-secondary small" for="checkTermos">
+                        Concordo com o envio dos dados para contato comercial.
+                      </label>
+                      <div class="invalid-feedback">Você deve aceitar antes de enviar.</div>
+                    </div>
+                  </div>
+
+                  <div class="col-12">
+                    <button type="submit" class="btn btn-primary w-100 py-2 fw-bold" id="btnEnviar">
+                      <i class="bi bi-send-fill me-1"></i> Enviar Mensagem
+                    </button>
+                  </div>
+                </div>
+              </form>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Rodapé -->
+  <footer class="bg-dark text-white py-4 mt-auto">
+    <div class="container">
+      <div class="row gy-3 align-items-center">
+        <div class="col-md-6 text-center text-md-start">
+          <div class="d-flex align-items-center justify-content-center justify-content-md-start gap-2 mb-1">
+            <i class="bi bi-cpu text-primary fs-4"></i>
+            <span class="fw-bold fs-5">Byte<span class="text-primary">Tech</span></span>
+          </div>
+          <small class="text-secondary d-block">
+            Soluções Tecnológicas &bull; Projeto Final de Front-End &bull; Senac
+          </small>
+        </div>
+
+        <div class="col-md-6 text-center text-md-end">
+          <div class="d-flex justify-content-center justify-content-md-end gap-3 mb-2">
+            <a href="https://www.whatsapp.com" target="_blank" rel="noopener noreferrer" class="text-secondary fs-5" title="WhatsApp"><i class="bi bi-whatsapp"></i></a>
+            <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer" class="text-secondary fs-5" title="Instagram"><i class="bi bi-instagram"></i></a>
+            <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer" class="text-secondary fs-5" title="Facebook"><i class="bi bi-facebook"></i></a>
+          </div>
+          <small class="text-secondary">&copy; 2026 ByteTech. Todos os direitos reservados.</small>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Botão Flutuante do WhatsApp -->
+  <a href="https://www.whatsapp.com" target="_blank" rel="noopener noreferrer" class="whatsapp-flutuante" title="Fale conosco no WhatsApp">
+    <i class="bi bi-whatsapp"></i>
+  </a>
+
+  <!-- Modais com Detalhes dos Serviços -->
+  <div class="modal fade" id="modalServico1" tabindex="-1" aria-labelledby="tituloModal1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title fw-bold" id="tituloModal1">Criação de Sites e Sistemas</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
+        </div>
+        <div class="modal-body text-secondary">
+          <p>Desenvolvemos páginas de acordo com a identidade visual da sua marca, utilizando HTML semântico, CSS moderno e Bootstrap para máxima compatibilidade com dispositivos móveis.</p>
+          <p class="mb-0"><strong>Prazo estimado:</strong> 10 a 20 dias úteis com suporte pós-lançamento incluído.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary btn-sm" data-bs-dismiss="modal">Fechar</button>
+          <a href="#contato" class="btn btn-primary btn-sm" data-bs-dismiss="modal">Solicitar Orçamento</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="modalServico2" tabindex="-1" aria-labelledby="tituloModal2" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title fw-bold" id="tituloModal2">Suporte e Manutenção em TI</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
+        </div>
+        <div class="modal-body text-secondary">
+          <p>Diagnóstico de problemas em desktops, notebooks e redes locais. Garantimos a recuperação rápida do seu ambiente com instalação de peças, limpeza e otimização do sistema.</p>
+          <p class="mb-0"><strong>Disponibilidade:</strong> Atendimento presencial ou acesso remoto imediato.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary btn-sm" data-bs-dismiss="modal">Fechar</button>
+          <a href="#contato" class="btn btn-primary btn-sm" data-bs-dismiss="modal">Falar com Técnico</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="modalServico3" tabindex="-1" aria-labelledby="tituloModal3" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title fw-bold" id="tituloModal3">Redes e Conectividade</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
+        </div>
+        <div class="modal-body text-secondary">
+          <p>Configuração de redes corporativas estáveis e rápidas. Montagem de racks, configuração de roteadores comerciais e segurança Wi-Fi.</p>
+          <p class="mb-0"><strong>Garantia:</strong> Testes de tráfego e certificação dos pontos de rede instalados.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary btn-sm" data-bs-dismiss="modal">Fechar</button>
+          <a href="#contato" class="btn btn-primary btn-sm" data-bs-dismiss="modal">Solicitar Visita</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="modalServico4" tabindex="-1" aria-labelledby="tituloModal4" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title fw-bold" id="tituloModal4">Backup em Nuvem</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
+        </div>
+        <div class="modal-body text-secondary">
+          <p>Automatização de cópias de segurança criptografadas para evitar perda acidental de documentos, planilhas e bancos de dados.</p>
+          <p class="mb-0"><strong>Segurança:</strong> Cópia redundante diária com monitoramento proativo.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary btn-sm" data-bs-dismiss="modal">Fechar</button>
+          <a href="#contato" class="btn btn-primary btn-sm" data-bs-dismiss="modal">Contratar Plano</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="modalServico5" tabindex="-1" aria-labelledby="tituloModal5" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title fw-bold" id="tituloModal5">Segurança da Informação</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
+        </div>
+        <div class="modal-body text-secondary">
+          <p>Proteção da rede e dos computadores contra softwares maliciosos e invasões. Configuração de firewalls e boas práticas para equipes.</p>
+          <p class="mb-0"><strong>Conformidade:</strong> Alinhamento às exigências legais da LGPD.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary btn-sm" data-bs-dismiss="modal">Fechar</button>
+          <a href="#contato" class="btn btn-primary btn-sm" data-bs-dismiss="modal">Fazer Diagnóstico</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="modalServico6" tabindex="-1" aria-labelledby="tituloModal6" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title fw-bold" id="tituloModal6">Consultoria em TI</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
+        </div>
+        <div class="modal-body text-secondary">
+          <p>Ajudamos sua empresa a investir nos computadores e softwares certos, evitando gastos desnecessários e melhorando a produtividade do time.</p>
+          <p class="mb-0"><strong>Resultado:</strong> Relatório técnico com recomendações claras e práticas.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary btn-sm" data-bs-dismiss="modal">Fechar</button>
+          <a href="#contato" class="btn btn-primary btn-sm" data-bs-dismiss="modal">Agendar Reunião</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal de Confirmação do Envio -->
+  <div class="modal fade" id="modalSucesso" tabindex="-1" aria-labelledby="tituloModalSucesso" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content text-center p-4">
+        <div class="modal-body">
+          <i class="bi bi-check-circle-fill text-success display-3 mb-3"></i>
+          <h4 class="fw-bold mb-2" id="tituloModalSucesso">Mensagem Enviada!</h4>
+          <p class="text-secondary mb-3">
+            Obrigado pelo contato! Sua mensagem foi enviada com sucesso e nossa equipe responderá em breve.
+          </p>
+          <button type="button" class="btn btn-primary px-4" data-bs-dismiss="modal">Fechar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
